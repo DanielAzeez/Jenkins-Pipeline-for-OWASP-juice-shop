@@ -334,5 +334,3 @@ post {
 
 This project is for educational and ethical use only. MIT License applies.
 
-```
-
