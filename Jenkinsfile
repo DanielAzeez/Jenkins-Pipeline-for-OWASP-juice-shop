@@ -20,7 +20,7 @@ pipeline {
                 /usr/local/bin/docker run --rm \
                     -v "${WORKSPACE}:/OWASP" \
                     zricethezav/gitleaks:latest detect --source=/OWASP \
-                    --report-path=gitleaks-report.json \
+                    --report-path=/OWASP/reports/gitleaks-report.json \
                     --report-format=json 
                 EXIT_CODE=$?
                 set -e
