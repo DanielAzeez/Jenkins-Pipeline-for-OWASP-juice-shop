@@ -1,4 +1,3 @@
-```markdown
 # 🛡️ DevSecOps CI Pipeline: OWASP Juice Shop Security Scanning with Jenkins
 
 This project demonstrates a complete **DevSecOps CI pipeline** using Jenkins to perform security scans on the popular vulnerable web application – [OWASP Juice Shop](https://github.com/juice-shop/juice-shop). The pipeline integrates **SAST tools** to automatically detect secrets, insecure code patterns, and vulnerable dependencies, and sends the results to **DefectDojo**, a security orchestration and vulnerability management platform.
@@ -336,6 +335,4 @@ post {
 This project is for educational and ethical use only. MIT License applies.
 
 ```
-
----
 
