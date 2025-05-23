@@ -315,6 +315,19 @@ post {
 
 ---
 
+---
+## JSON Outputs Reference
+
+The tools used in this pipeline generate outputs in JSON format which can be parsed or uploaded to vulnerability management platforms.
+
+| Tool         | Output File                                                  | Description                                |
+|--------------|--------------------------------------------------------------|--------------------------------------------|
+| **Gitleaks** | [gitleaks-report.json](outputs/gitleaks-report.json) | Detects hardcoded secrets like API keys, tokens, and credentials in code.  |
+| **NJSscan** | [njsscan-output.json](outputs/njsccan-output.json) |  Scans Node.js applications for security vulnerabilities in code patterns.  |
+| **Semgrep**  | [semgrep-report.json](outputs/semgrep-report.json)   | Static analysis tool that identifies code issues, security flaws, and bugs.    |
+
+---
+
 ## 📝 Final Notes
 
 * This pipeline can be extended to trigger on PRs, commits, or scheduled scans.
