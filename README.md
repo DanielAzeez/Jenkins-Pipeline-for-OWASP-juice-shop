@@ -325,9 +325,9 @@ post {
 
 * [OWASP Juice Shop](https://github.com/juice-shop/juice-shop)
 * [Gitleaks](https://github.com/gitleaks/gitleaks)
-* [Semgrep](https://semgrep.dev/)(https://github.com/semgrep/semgrep)
+* [Semgrep](https://github.com/semgrep/semgrep)
 * [NJSSCAN](https://github.com/ajinabraham/njsscan)
-* [DefectDojo](https://defectdojo.org/)(https:demo.defectdojo.org)
+* [DefectDojo](https://demo.defectdojo.org)
 
 ---
 
