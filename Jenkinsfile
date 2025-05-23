@@ -9,12 +9,6 @@ pipeline {
     }
         
     stages {
-        stage ('Checkout Code') {
-            steps {
-                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/juice-shop/juice-shop.git']])
-            }
-        }
-
         stage ('Run GitLeaks Scan on Code') {
             steps {
                 sh '''
