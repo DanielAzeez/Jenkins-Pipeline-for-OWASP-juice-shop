@@ -20,13 +20,13 @@ This project demonstrates a complete **DevSecOps CI pipeline** using Jenkins to 
 ---
 ## Prerequisites
 
-### Before running this pipeline, ensure that you have the following set up:
+#### Before running this pipeline, ensure that you have the following set up:
 
 - Jenkins installed and running: You can download and set it up from https://www.jenkins.io/.
 - Semgrep App Token: Sign up and obtain your token at https://semgrep.dev/.
 - DefectDojo API Token: Use the public demo instance at https://demo.defectdojo.org or set up your own DefectDojo instance and generate an API token.
 
-### Make sure these credentials are securely stored in Jenkins credentials manager or referenced via environment variables in your pipeline.
+#### Make sure these credentials are securely stored in Jenkins credentials manager or referenced via environment variables in your pipeline.
 ---
 
 ## 🔍 What is OWASP Juice Shop?
