@@ -39,19 +39,19 @@ This project demonstrates a complete **DevSecOps CI pipeline** using Jenkins to 
 
 ### 🔐 Gitleaks
 - **Purpose**: Scans the repository for hardcoded secrets (e.g., API keys, passwords, tokens).
-- **Output**: `gitleaks-report.json`
+- **Output**: `[gitleaks-report.json]`(outputs/gitleaks-report.json)
 - **Format**: JSON
 - **Why it's important**: Secrets should never be committed to version control. Gitleaks ensures no sensitive credentials are leaked.
 
 ### 🧠 Semgrep
 - **Purpose**: Performs static code analysis using pre-defined or custom rules to identify vulnerabilities like command injections, insecure regex, hardcoded credentials, etc.
-- **Output**: `semgrep-report.json`
+- **Output**: `[semgrep-report.json]`(outputs/semgrep-report.json)
 - **Format**: JSON
 - **Why it's important**: Semgrep checks for insecure patterns in code logic across multiple languages.
 
 ### 🔎 NJSSCAN (Node.js Scan)
 - **Purpose**: Scans Node.js applications for known vulnerable dependencies (like `npm audit` but more customizable).
-- **Output**: `njsscan-output.json`
+- **Output**: `[njsscan-output.json]`(outputs/njsccan-output.json)
 - **Format**: JSON
 - **Why it's important**: Modern apps heavily rely on third-party packages. NJSSCAN checks for CVEs and outdated or dangerous packages.
 
@@ -323,8 +323,9 @@ The tools used in this pipeline generate outputs in JSON format which can be par
 | Tool         | Output File                                                  | Description                                |
 |--------------|--------------------------------------------------------------|--------------------------------------------|
 | **Gitleaks** | [gitleaks-report.json](outputs/gitleaks-report.json) | Detects hardcoded secrets like API keys, tokens, and credentials in code.  |
-| **NJSscan** | [njsscan-output.json](outputs/njsscan-output.json) |  Scans Node.js applications for security vulnerabilities in code patterns.  |
 | **Semgrep**  | [semgrep-report.json](outputs/semgrep-report.json)   | Static analysis tool that identifies code issues, security flaws, and bugs.    |
+| **NJSscan** | [njsscan-output.json](outputs/njsscan-output.json) |  Scans Node.js applications for security vulnerabilities in code patterns.  |
+
 
 ---
 
