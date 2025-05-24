@@ -342,7 +342,19 @@ The tools used in this pipeline generate outputs in JSON format which can be par
 
 ## 📸 Screenshots
 
-*Add screenshots here of Jenkins pipeline execution, reports in DefectDojo, and any charts or results.*
+<img width="1528" alt="Image" src="https://github.com/user-attachments/assets/edf8166e-95b1-4363-825d-24dc3ec05243" />
+*Successful completion of Jenkins pipeline*
+<img width="1528" alt="Image" src="https://github.com/user-attachments/assets/60ca18e3-599d-4f80-8d2f-848797a1a582" />
+*Pipeline in action*
+![Image](https://github.com/user-attachments/assets/90bdb330-a7f0-498c-84b1-ea75637b9f21)
+*Artifacts generated during pipeline run (Outputs in JSON format)*
+<img width="1528" alt="Image" src="https://github.com/user-attachments/assets/43a4ea36-068a-420a-bec7-fe434e6356bb" />
+*Scan results uploaded to DefectDojo via its REST API*
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/d7c2c77d-3822-4246-a65b-a074a21ade88" />
+*
+<img width="1528" alt="Image" src="https://github.com/user-attachments/assets/7b0101df-5c6e-483e-97ea-30389a3911e1" />
+*
+
 
 ---
 
