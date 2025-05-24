@@ -39,19 +39,19 @@ This project demonstrates a complete **DevSecOps CI pipeline** using Jenkins to 
 
 ### 🔐 Gitleaks
 - **Purpose**: Scans the repository for hardcoded secrets (e.g., API keys, passwords, tokens).
-- **Output**: [gitleaks-report.json](outputs/gitleaks-report.json)
+- **Output**: `gitleaks-report.json`
 - **Format**: JSON
 - **Why it's important**: Secrets should never be committed to version control. Gitleaks ensures no sensitive credentials are leaked.
 
 ### 🧠 Semgrep
 - **Purpose**: Performs static code analysis using pre-defined or custom rules to identify vulnerabilities like command injections, insecure regex, hardcoded credentials, etc.
-- **Output**: [semgrep-report.json](outputs/semgrep-report.json)
+- **Output**: `semgrep-report.json`
 - **Format**: JSON
 - **Why it's important**: Semgrep checks for insecure patterns in code logic across multiple languages.
 
 ### 🔎 NJSSCAN (Node.js Scan)
 - **Purpose**: Scans Node.js applications for known vulnerable dependencies (like `npm audit` but more customizable).
-- **Output**: [njsscan-output.json](outputs/njsccan-output.json)
+- **Output**: `njsscan-output.json`
 - **Format**: JSON
 - **Why it's important**: Modern apps heavily rely on third-party packages. NJSSCAN checks for CVEs and outdated or dangerous packages.
 
