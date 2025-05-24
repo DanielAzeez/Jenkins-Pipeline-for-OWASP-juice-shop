@@ -355,7 +355,7 @@ The tools used in this pipeline generate outputs in JSON format which can be par
 <img width="1528" alt="Image" src="https://github.com/user-attachments/assets/7b0101df-5c6e-483e-97ea-30389a3911e1" />
 *
 
-* OWASP Juice Shop
+`OWASP Juice Shop`
 
 ---
 
