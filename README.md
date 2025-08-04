@@ -2,7 +2,7 @@
 
 This project demonstrates a complete **DevSecOps CI pipeline** using Jenkins to perform security scans on the popular vulnerable web application – [OWASP Juice Shop](https://github.com/juice-shop/juice-shop). The pipeline integrates **SAST tools** to automatically detect secrets, insecure code patterns, and vulnerable dependencies, and sends the results to **DefectDojo**, a security orchestration and vulnerability management platform.
 
-[![Branch: Jenkinsfile](https://img.shields.io/badge/branch-Jenkinsfile-blue)](https://github.com/DanielAzeez/Jenkins-Pipeline-for-OWASP-juice-shop/blob/Jenkinsfile/Jenkinsfile)
+[![Jenkinsfile](https://img.shields.io/badge/Jenkinsfile-master-blue)](https://github.com/DanielAzeez/Jenkins-Pipeline-for-OWASP-juice-shop/blob/master/Jenkinsfile)
 
 ---
 
